@@ -2,22 +2,22 @@
 """
 Created on Mon Nov 18 15:28:12 2019
 2020/01/13 Plot 3D crystal strucutre and then cut it into a retangular shape
-            Quick method to find matrix elements using Pandat
+           Quick method to find matrix elements using Pandat
 2020/01/15 Adjust the method to find neighbors quickly with the help of MK
 2020/01/15 The center's brightness could be weaker than its negbours 
-            Change the code for Al-Mg  
+           Change the code for Al-Mg  
 2020/01/17 Add a cycle for calculating Al-Al and Mg-Mg sequentially
-            Add a cycle for generating library of SDMs with different z noise
-            Save SDMs into a local file with a nomenclature <Simu_AlMg_L12_noise_z_xxx_Al_Al.png>
-2020/01/20  Delete all ticks and enlarge it to fill in whole background for CNN preprocessing   
+           Add a cycle for generating library of SDMs with different z noise
+           Save SDMs into a local file with a nomenclature <Simu_AlMg_L12_noise_z_xxx_Al_Al.png>
+2020/01/20 Delete all ticks and enlarge it to fill in whole background for CNN preprocessing   
 2020/01/24 add new plotting style 
                 from matplotlib.colors import BoundaryNorm
                 from matplotlib.ticker import MaxNLocator
-2020/02/10  change pole to [111] 
-2020/02/20  generate more figures: detection eff, noise in z direction   
-2020/04/22  optimze figures plot    
-2020/04/23  modify SDMs part   
-2020/05/24  creat BCC_Fe crystal  
+2020/02/10 change pole to [111] 
+2020/02/20 generate more figures: detection eff, noise in z direction   
+2020/04/22 optimze figures plot    
+2020/04/23 modify SDMs part   
+2020/05/24 creat BCC_Fe crystal  
 2020/06/18 optimize code
 2020/07/15 FCC Al
 2020/07/27 optimizing codes
