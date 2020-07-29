@@ -1,1 +1,6 @@
+Training:
+
 The simulated z-SDMs were split into 90% for training and validation and 10% for test. Fivefold cross-validation was performed to calculate the standard deviation error bars for each training, i.e., the 90% data was divided into 5 subsets and each subset was treated as a validation set and others as a training set. An optimum model was obtained after fivefold cross-validation. The used images were 150×150 pixel greyscale images with one channel of input, whose pixel values were between 0 (black) and 255 (white). 
+
+Test:
+To further test the obtained ordered structure recognition model, the model was applied to predict the L12 structure probability of a small test dataset with 48 experimental zx-SDMs of the Al-Li-Mg system. 
