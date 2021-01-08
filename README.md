@@ -1,6 +1,6 @@
 # Convolutional neural network-assisted recognition of nanoscale L12 ordered structures in face-centred cubic alloys
 
-Cite: npj Computational Materials, 2020: https://doi.org/10.1038/s41524-020-00472-7
+Cite: npj Computational Materials, 2021: https://doi.org/10.1038/s41524-020-00472-7
 
 Nanoscale L12-type ordered structures are widely used in face-centered cubic (FCC) alloys to exploit their hardening capacity and thereby improve
 mechanical properties. These fine-scale particles are typically fully coherent with matrix with the same atomic configuration disregarding chemical
