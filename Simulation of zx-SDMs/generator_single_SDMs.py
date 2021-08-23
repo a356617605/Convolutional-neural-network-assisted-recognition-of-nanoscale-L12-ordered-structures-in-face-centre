@@ -31,7 +31,7 @@ def single_SDMs(data_reconstruction, sigma_xy, sigma_z, plot_noise, detect_eff_a
     #%% Plot 3D crystal structure with noise
     if plot_noise == True:
         ax = plt.subplot(111, projection='3d')  # build a project
-        ax.scatter(data_noise [:, 0], data_noise [:, 1], data_noise [:, 2], c=data_noise [:, 3], s=8)  # 绘制数据点
+        ax.scatter(data_noise [:, 0], data_noise [:, 1], data_noise [:, 2], c=data_noise [:, 3], s=8)  
         ax.tick_params(axis='both', which='major', labelsize=16)
         ax.set_zlabel('Z', fontsize=16)  # axis
         ax.set_ylabel('Y', fontsize=16)
